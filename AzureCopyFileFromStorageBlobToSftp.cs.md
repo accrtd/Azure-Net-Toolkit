@@ -19,7 +19,7 @@ class CustomStream : Stream
     private long _localOffset;
     private long _localBufferSize;
 
-    public AzureBlobFileHandlingStream(BlobClient blobClient, long fileSize, long howManyByteToLoadIntoMemory)
+    public CustomStream(BlobClient blobClient, long fileSize, long howManyByteToLoadIntoMemory)
     {
         _ifFirstRunThenAdjustLocalBuffer = true;
         _blobClient = blobClient;
