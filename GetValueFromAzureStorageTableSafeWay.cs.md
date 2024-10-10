@@ -1,3 +1,6 @@
+Get value from Azure Storage Table in a safe way
+
+```csharp
 using System.Text;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
@@ -68,3 +71,4 @@ public class AzureTable
         return .....;
     }
 }
+```
